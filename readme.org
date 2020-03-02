@@ -1,0 +1,15 @@
+* FTLCAT
+** Faster-than-light netcat
+Is it possible to transfer informations faster than light ?
+Without any doubts, yes.
+The receiver just have to brutforce the missing informations.
+** Sender
+- The size of the file
+- \n
+- The hash of the file (let's use sha512)
+- \n
+- The file itself
+** Receiver
+- Get the size and the hash of the file
+- Start receiving the file itself
+- Start brutforcing the missing informations
