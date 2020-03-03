@@ -3,6 +3,11 @@
 Is it possible to transfer informations faster than light ?
 Without any doubts, yes.
 The receiver just have to brutforce the missing informations.
+** Usage
+Sender
+`netcat <address:port> <filename>`
+Receiver
+`netcat -l <port> <filename>`
 ** Sender
 - The size of the file
 - \n
